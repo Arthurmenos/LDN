@@ -7,6 +7,12 @@ main {
     background-color: #1A1919;
 }
 
+main > h1 {
+    color: white;
+    text-align: center;
+    padding: 3vh;
+}
+
 #principal {
     display: flex;
     flex-direction: row;
@@ -19,27 +25,46 @@ main {
     background-color: #FEFEFE;
     border: 1px solid black;
     width: 36vh;
+    height: 50vh;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+}
 
+#meio > #buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#meio > #buttons > button {
+    height: 0.2vh;
+    width: 6vh;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+}
+
+.players {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .player {
     background-color: #FEFEFE;
-    display: inline-block;
     margin: 5px;
     height: 8vh;
-    width: 16.5vh;
+    width: 15.5vh;
     border: 1px solid black;
     cursor: pointer;
 }
-.selected {
-    background-color: yellow;
+
+.player:hover {
+    background-color: rgba(26, 25, 25, 0.212);
 }
+
 .team {
     background-color: #FEFEFE;
-    display: inline-block;
     margin: 10px;
     padding: 10px;
     border: 1px solid black;
