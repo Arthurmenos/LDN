@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Seleção de Equipes</title>
+  <link rel="shortcut icon" href="../pictures/Logo nova.png" type="image/x-icon">
+  <link rel="stylesheet" href="../style/stylebasico.css">
+  <link rel="stylesheet" href="../style/style_lobby.css">
+</head>
+<body>
+  <header>
+    <section id="home">
+        <a href="#">
+            <img src="../pictures/Logo nova.png" alt="Logo do time">
+            <p>LOBOS DA NOITE</p>
+        </a>
+    </section>
+    <section id="links">
+        <a href="#">Players</a>
+        <a href="#">Equipes</a>
+        <a href="#">Torneios</a>
+        <a href="pages/lobby.html">Lobby</a>
+    </section>
+    <section id="redes">
+        <a href="#">F</a>
+        <a href="#">I</a>
+        <a href="#">T</a>
+    </section>
+</header>
+
+<main>
+    <h1>Seleção de Equipes</h1>
+  
+    <section id="principal">
+      <div class="team" id="team1">
+        <h2 id="team1-name">Time 1</h2>
+        <div class="selected-players"></div>
+      </div>
+      <section id="meio">
+        <button id="start-button" onclick="iniciar()">Iniciar</button>
+        <button id="random" onclick="random()">Random Caps</button>
+        <button id="allpick" onclick="allpick()">All Pick</button>
+        <div id="players">
+          <div class="player" id="player1">Jogador 1</div>
+          <div class="player" id="player2">Jogador 2</div>
+          <div class="player" id="player3">Jogador 3</div>
+          <div class="player" id="player4">Jogador 4</div>
+          <div class="player" id="player5">Jogador 5</div>
+          <div class="player" id="player6">Jogador 6</div>
+          <div class="player" id="player7">Jogador 7</div>
+          <div class="player" id="player8">Jogador 8</div>
+          <div class="player" id="player9">Jogador 9</div>
+          <div class="player" id="player10">Jogador 10</div>
+        </div>
+      </section>
+        <div class="team" id="team2">
+          <h2 id="team2-name">Time 2</h2>
+          <div class="selected-players"></div>
+        </div>
+    </section>
+  
+</main>
+  <script src="../script/script_lobby.js"></script>
