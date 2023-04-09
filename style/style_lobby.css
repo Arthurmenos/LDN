@@ -18,7 +18,6 @@ main > h1 {
     flex-direction: row;
     -ms-flex-item-align: baseline;
     justify-content: space-around;
-    
 }
 
 #meio {
@@ -45,12 +44,12 @@ main > h1 {
 }
 
 .players {
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
 .player {
+    display: inline-block;
     background-color: #FEFEFE;
     margin: 5px;
     height: 8vh;
